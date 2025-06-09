@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: beige;
+}
+
+.nupp{
+  background-color: green;
+  color: lightgray;
+}
+
+.nupp:hover{
+  height: 100px;
+}
+
+nupp:active{
+  cursor: grab;
+}
+
+.sinineTekst{
+  color: blue;
+  font-style: italic;
+}
+
+.sinineTekst:hover{
+  font-size: 24px;
+}
+
+.rohelineTekst{
+  color: green;
+  font-weight: bold;
+  border: 2px solid red;
+  padding: 1em;
+}
+
+.rohelineTekst:hover{
+  border-color: brown;
+}
+
+.pilt{
+  width: 200px;
+  height: auto;
+  align-items: end;
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.pilt:hover{
+  border-radius: 10px;
+}
+
+.pilt:active{
+  opacity: 70%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

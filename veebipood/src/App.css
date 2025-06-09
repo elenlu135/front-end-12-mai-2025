@@ -31,3 +31,16 @@
 .pilt:active{
  transform: scale(110%)
 }
+
+.aktiivne{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.error-input{
+  border: solid 1px red;
+}
+
+.error-text {
+  color: red;
+}
